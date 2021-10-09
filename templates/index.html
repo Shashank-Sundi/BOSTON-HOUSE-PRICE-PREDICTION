@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boston House Price Prediction</title>
+    <link rel="stylesheet" href="../static/styles/index_page.css">
+</head>
+
+    <body class='bg'>
+            <div class="content" style="background-color: rgba(103, 52, 105, 0.85) ; color:white;">
+                <h1 style="text-align: center">Boston House Price Prediction</h1>
+
+                <div class="form">
+                    <p><u><b>Enter the Required Parameters :</b></u></p>
+                    <form action="/Prediction" method="POST" autocomplete="on">
+                        <label for="CRIM">CRIM</label>
+                        <input type="number" name="CRIM" id="CRIM" placeholder="Crime Rate" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="ZN">ZN </label>
+                        <input type="number" name="ZN" id="ZN" placeholder=" prop.-resid. zoned laned" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="INDUS">INDUS</label>
+                        <input type="number" name="INDUS" id="INDUS" placeholder=" non-retail business prop." step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="CHAS">CHAS</label>
+                        <select name="CHAS" id="CHAS" >
+                            <option value=1>Yes</option>
+                            <option value=0>No</option>
+                        </select>
+                        &nbsp; &nbsp;
+                        <label for="NOX">NOX</label>
+                        <input type="number" name="NOX" id="NOX" placeholder="NO2 ppm concentration" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="RM">RM</label>
+                        <input type="number" name="RM" id="RM" placeholder="avg. rooms/dwelling" step="any" required>
+                        &nbsp; &nbsp;
+                        <br><br>
+                        <label for="AGE">AGE</label>
+                        <input type="number" name="AGE" id="AGE" placeholder="Age" step="any" required>
+                        
+                        <label for="DIS">DIS</label>
+                        <input type="number" name="DIS" id="DIS" placeholder="weighted dist to 5 Boston employment centres" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="RAD">RAD</label>
+                        <input type="number" name="RAD" id="RAD" placeholder="Accesibility index-Radial Highways" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="TAX">TAX</label>
+                        <input type="number" name="TAX" id="TAX" placeholder="TAX" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="PTRATIO">PTRATIO</label>
+                        <input type="number" name="PTRATIO" id="PTRATIO" placeholder=" pupil-teacher ratio" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="B">B</label>
+                        <input type="number" name="B" id="B" placeholder="B" step="any" required>
+                        &nbsp; &nbsp;<br><br>
+                        <label for="LSTAT">LSTAT</label>
+                        <input type="number" name="LSTAT" id="LSTAT" placeholder="% lower status-population" step="any" required>
+                        &nbsp; &nbsp;
+                        <input type="submit" value="Predict">
+                    </form>
+                    <br><br>
+
+                    
+                </div>
+            </div>
+
+            <div style="bottom: 0px;">
+                <div>
+
+                    <img class="profile"  src= "../static/images/72919592_417753879153334_1723338761183428608_n.png"alt="Shashank Sundi" style="width:200px;height:200px;" >
+                </div>
+
+                <div >
+                    <a href="https://github.com/Shashank-Sundi/FIFA-FOOTBALL-PLAYER-RATING-PREDICTION" target="_blank">
+                        <img alt="github link" src="../static/images/git.png" width=40" height="40" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;border-color: wheat;border-style: solid;border-width: 4px;">
+                     </a>
+
+
+                     <a href="https://www.linkedin.com/in/shashank-sundi-4b78561b1" target="_blank">
+                        <img alt="linkedin" src="../static/images/Linkedin-logo-vector-PNG.png" width=50" height="50" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;">
+                     </a>
+
+                     <a href="mailto:sundi.sn@gmail.com" >
+                    <img src="../static/images/gmailll.png" width=40" height="40" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;border-color: wheat;border-style: solid;border-width: 4px;"> </a>
+                </div>
+            </div>
+    </body>
+</html>
+
