@@ -23,6 +23,8 @@ The model has been deployed using REST API using flask, on Heroku : https://bost
 
 Original Dataset : https://www.kaggle.com/c/boston-housing
 
+Python Notebook : https://shashank-sundi.github.io/BOSTON-HOUSE-PRICE-PREDICTION/
+
 Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/Boston-Housing-Price-Prediction.ipynb
 
 <hr>
